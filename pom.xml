@@ -11,17 +11,30 @@
     <gson.version>2.10</gson.version>
     <org.projectlombok.version>1.18.28</org.projectlombok.version>
   </properties>
+
   <dependencies>
+
     <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
       <version>${gson.version}</version>
+
     </dependency>
+
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <version>${org.projectlombok.version}</version>
       <scope>provided</scope>
+
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.20</version>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
+
+
 </project>
