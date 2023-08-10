@@ -10,11 +10,12 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Developer {
+
     private Integer id;
     private String firstName;
     private String lastName;
     private List<Skill> skills;
-    private Specialty specialty;
+    private Speciality specialty;
     private Status status;
 
 }

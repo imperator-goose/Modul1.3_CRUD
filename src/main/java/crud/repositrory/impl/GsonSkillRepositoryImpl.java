@@ -92,8 +92,5 @@ public class GsonSkillRepositoryImpl implements SkillRepository {
                 .collect(Collectors.toList());
         this.writeSkillsToFile(currentSkills);
     }
-    public static void main(String[] args) {
-        GsonSkillRepositoryImpl skillRepository = new GsonSkillRepositoryImpl();
 
-    }
 }
