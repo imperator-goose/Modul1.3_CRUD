@@ -93,4 +93,5 @@ public class GsonSkillRepositoryImpl implements SkillRepository {
         this.writeSkillsToFile(currentSkills);
     }
 
+
 }

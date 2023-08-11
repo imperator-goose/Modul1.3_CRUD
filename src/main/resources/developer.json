@@ -1,1 +1,1 @@
-[{"id":1,"firstName":"Huga","lastName":"Boss","skills":[{"id":2,"name":"JAVA","status":"DELETED"}],"specialty":{"id":1,"status":"ACTIVE"},"status":"ACTIVE"},{"id":2,"firstName":"Руслан","lastName":"Караев","skills":[{"id":1,"name":"Георгий"}],"specialty":{"id":1,"status":"ACTIVE"},"status":"ACTIVE"}]
+[{"id":1,"firstName":"Негритёнок","lastName":"Негр","skills":[],"status":"ACTIVE"}]
