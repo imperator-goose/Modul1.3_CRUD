@@ -41,24 +41,5 @@ public class DeveloperController {
         developerRepository.deleteById(id);
     }
 
-    public static void main(String[] args) {
 
-        List<Skill> skills = new SkillController(new GsonSkillRepositoryImpl()).readAll();
-
-        Speciality speciality = new SpecialityController(new GsonSpecialityRepositoryImpl()).read(1);
-        Developer developer = new Developer();
-        DeveloperController developerController = new DeveloperController(new GsonDeveloperRepositoryImpl());
-
-
-        developer.setFirstName("Негритёнок");
-        developer.setLastName("Негр");
-        speciality.setName("Вспахиватель");
-
-        developer.setSkills(skills);
-        developer.setSpecialty(speciality);
-
-        developerController.create(developer);
-
-
-    }
 }
