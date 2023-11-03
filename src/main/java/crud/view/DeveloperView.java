@@ -16,6 +16,7 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 import java.lang.Integer;
+
 public class DeveloperView {
     Scanner scanner;
     private DeveloperController developerController = new DeveloperController(new GsonDeveloperRepositoryImpl());
